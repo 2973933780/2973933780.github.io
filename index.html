@@ -172,6 +172,94 @@
           </div>
           <div id="js-content" class="content-ll">
             
+  
+    <script src="/lib/oauthcallback.browser.js"></script>
+  
+  <script>
+    Oauthcallback();
+  </script>
+
+
+  
+    <article id="post-hexo-d-时报错ERROR-Deployer-not-found-git" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2020/05/20/hexo-d-%E6%97%B6%E6%8A%A5%E9%94%99ERROR-Deployer-not-found-git/" target="_blank">hexo d 时报错ERROR Deployer not found: git</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2020/05/20/hexo-d-%E6%97%B6%E6%8A%A5%E9%94%99ERROR-Deployer-not-found-git/" class="archive-article-date">
+        <time datetime="2020-05-20T11:10:17.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-05-20</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a><strong>问题描述</strong></h1><p>我在使用 <font color="#dd0000">hexo d</font> 将博客推到远端时偶尔会报错，例如：</p>
+<p><a href="https://imgchr.com/i/Y73VfA" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/20/Y73VfA.png" alt="Y73VfA.png"></a></p>
+<p>但是我在博客根目录中的  <font color="#dd0000">_config.yml</font>文件中已经配置好了我的仓库地址：</p>
+<p><a href="https://imgchr.com/i/Y7JGfH" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/20/Y7JGfH.png" alt="Y7JGfH.png"></a></p>
+<h1 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a><strong>解决方案</strong></h1><p>这其实是因为没有安装 <font color="#dd0000">hexo-deployer-git</font> 插件，在博客根目录中输入 <font color="#dd0000">npm install hexo-deployer-git –save</font> 即可：</p>
+<p><a href="https://imgchr.com/i/Y7N076" target="_blank" rel="noopener"><img src="https://s1.ax1x.com/2020/05/20/Y7N076.png" alt="Y7N076.png"></a></p>
+<p>然后再使用 <font color="#dd0000">hexo d</font> 命令就会发现博客可以推送到远端了</p>
+
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+    
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2020/05/20/hexo-d-%E6%97%B6%E6%8A%A5%E9%94%99ERROR-Deployer-not-found-git/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
 
   
     <article id="post-giao" class="article article-type-post  article-index" itemscope itemprop="blogPost">
